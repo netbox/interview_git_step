@@ -38,8 +38,8 @@ class SimpleLogger
 
 $operations = [
     [5, 'USD', 0.2, 'BTC', '2022-01-02'],
-    [5, 'AED', 76, 'EUR', '2018-08-29'],
-    [6000, 'KZT', 12, 'USD', '2016-05-08'],
+    ['5', 'AED', 76, 'EUR', '2018-08-29'],
+    [6000, 'KZT', '12.2', 'USD', '2016-05-08'],
 ];
 
 $builder = new SimpleLogger([new DateFormatter()]);
